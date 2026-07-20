@@ -1,5 +1,3 @@
-import struct
-
 print("Нужна версия призмы кароче 11.0.3 иначе нон ворк")
 patches = {
     0xB5B60: bytes([0xB0, 0x01, 0xC3, 0x24, 0x08]),

@@ -1,4 +1,5 @@
-print("Нужна версия призмы кароче 11.0.3 иначе нон ворк")
+print("Нужна версия призмы 11.0.3 иначе нон ворк. Нажмите Enter для продолжения операции...")
+input()
 patches = {
     0xB5B60: bytes([0xB0, 0x01, 0xC3, 0x24, 0x08]),
     0xEB18D: bytes([0x90, 0x90]),
@@ -10,3 +11,4 @@ for offset, new_bytes in patches.items():
     data[offset:offset+len(new_bytes)] = new_bytes
 with open("prismlauncher.exe", "wb") as f:
     f.write(data)
+print("Файл был успешно пропатчен!")

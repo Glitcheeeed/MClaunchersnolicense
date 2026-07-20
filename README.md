@@ -1,4 +1,4 @@
 # MClaunchersnolicense
 Removes the mandatory license requirement in Minecraft launchers
 ## List of available patches:
-<b>PrismLauncher</b> - 11.0.3 (PLpatchofflineacc.py)
+<b>PrismLauncher</b> - 11.0.3 (Prism_11.0.3.py)
